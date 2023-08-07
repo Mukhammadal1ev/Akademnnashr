@@ -5,6 +5,10 @@ font-family: "Roboto", "Arial", sans-serif;
 letter-spacing: 0.5px;
 }
 
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
 .site-header {
 align-items: center;
 background-color: #fff;
@@ -174,7 +178,7 @@ line-height: 19px;
 .site-footer-link-list a:hover {
 color: #ff7500;
 }
-.site-footer-link-list a:focus {
+.site-footer-link-list a:active {
   opacity: 0.6;
   }
 
